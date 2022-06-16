@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../Images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" name="search box" placeholder="search for a location" class="search-box">
+            <button class="mag"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather details">
+            <h2 class="city">weather in lagos</h2>
+            <h1 class="temp">51°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="weather-image" class="icon">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">humidity: 60%</div>
+            <div class="wind">wind speed: 20 km/hr</div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b65fe75dea.js" crossorigin="anonymous" defer></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
